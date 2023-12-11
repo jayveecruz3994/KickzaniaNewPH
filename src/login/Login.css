@@ -1,0 +1,96 @@
+body{
+    background-color: #fff;
+}
+.log-in-container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.log-in-logo-container{
+    width: 100%;
+    background-color: #1141BE;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.log-in-logo-container img{
+    width: auto;
+    height: 100%;
+}
+
+.log-in-form{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.log-in-form-content{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.log-in-form-content input{
+    width: 100%;
+    border: none;
+    background-color: #EFEFF7;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    
+}
+
+.instruction{
+    color: #9a9a9a;
+    font-size: .7rem;
+}
+
+.loginBtn{
+    background-color: #1141BE;
+    width: 100%;
+    border: none;
+    height: 30px;
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.google-signin-button-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.googleLoginBtn{
+    width: 100%;
+    background-color: white;
+    border: 3px solid #1141BE;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+
+.loginBtn:hover, .googleLoginBtn:hover{
+    scale: 105%;
+}

@@ -1,0 +1,195 @@
+[
+    
+    {
+        "id": "2",
+        "name": "Trae Young 1 Ice",
+        "brand": "Adidas",
+        "color": "Blue",
+        "price": "9000",
+        "mainImageURL": "https://sa.kickscrew.com/cdn/shop/products/main-square_e1d1e776-7246-46a3-bfc5-870f8f597849_540x.jpg?v=1695116079",
+        "colorWay": "Bahia Light Blue",
+        "featured": true,
+        "subImageURL1": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f5ef0868c698473a9a24ad2b00fed309_9366/Trae_Young_1_Shoes_Blue_H68997_011_hover_standard.jpg",
+        "subImageURL2": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f13c324d49d244db9d53ad2b00fe8ffc_9366/Trae_Young_1_Shoes_Blue_H68997_02_standard.jpg",
+        "subImageURL3": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bea9dccc8dad4aeaaf24ad2b00ff301c_9366/Trae_Young_1_Shoes_Blue_H68997_03_standard.jpg",
+        "subImageURL4": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8dd42722184c41dca10dad2b00f35791_9366/Trae_Young_1_Shoes_Blue_H68997_05_standard.jpg",
+        "story": "The Trae Young 1, from adidas Basketball and Trae Young, pairs Trae's unmatched look and unique style of play with the ultimate agility, containment and comfort. Making his signature shoe debut, each colourway in the collection looks to capture Young's distinctive flair and personality while also providing the top technologies in adidas basketball footwear.",
+        "sizes": {
+            "7": 1,
+            "8": 2,
+            "9.5": 3,
+            "10": 4,
+            "11": 2
+        }
+    },
+    {
+        "id": "3",
+        "name": "Nike KD 16 EP 'Ms. Wanda'",
+        "brand": "Nike",
+        "color": "Green",
+        "price": "11000",
+        "mainImageURL": "https://titan22.com/cdn/shop/files/DV2916-301-A_1082x.png?v=1700110632",
+        "colorWay": "Mint Foam",
+        "featured": true,
+        "subImageURL1": "https://titan22.com/cdn/shop/files/DV2916-301-B_1082x.png?v=1700110632",
+        "subImageURL2": "https://titan22.com/cdn/shop/files/DV2916-301-C_1082x.png?v=1700110631",
+        "subImageURL3": "https://titan22.com/cdn/shop/files/DV2916-301-D_1082x.png?v=1700110631",
+        "subImageURL4": "https://titan22.com/cdn/shop/files/DV2916-301-E_1082x.png?v=1700110630",
+        "story": "Kevin Durant is a true hooper whod be just as happy running pickup on the blacktop all afternoon as he would be dropping 40 pieces in the playoffs. When your avid appetite for the game cant be extinguished and you crave pure hoop bliss, like Easy Money, knot up the KD16’s. An Air Zoom unit gives you the vroom, the upper is lower and the overall load is lighter, ideal for the famished hoopaholic who cant say no to just one more game or finish an on-court workout without ending on a flurry of makes.",
+        "sizes": {
+            "7": 1,
+            "8": 2,
+            "9.5": 3,
+            "10": 4
+        }
+    },
+    {
+        "id": "4",
+        "name": "AIR JORDAN XXXVIII 'FIBA'",
+        "brand": "Jordan",
+        "color": "White",
+        "price": "11500",
+        "mainImageURL": "https://sneakerpolitics.com/cdn/shop/files/AURORA_FN7481-100_PHSLH000-2000.jpg?v=1693249211&width=1140",
+        "colorWay": "WHITE/METALLIC GOLD",
+        "featured": true,
+        "subImageURL1": "https://sneakerpolitics.com/cdn/shop/files/AURORA_FN7481-100_PHCFH001-2000.jpg?v=1700073366&width=1140",
+        "subImageURL2": "https://sneakerpolitics.com/cdn/shop/files/AURORA_FN7481-100_PHSRH001-2000.jpg?v=1700073366&width=1140",
+        "subImageURL3": "https://sneakerpolitics.com/cdn/shop/files/AURORA_FN7481-100_PHCTH001-2000.jpg?v=1693249211&width=1140",
+        "subImageURL4": "https://sneakerpolitics.com/cdn/shop/files/AURORA_FN7481-100_PHCBH000-2000.jpg?v=1693249211&width=1140",
+        "story": "This AJ XXXVIII honors the International Basketball Federation—the governing body for basketball worldwide. Like white light containing every possible color, the striking outer conceals an insole decorated with all the hues of the vibrant FIBA logo. Boldness, from the inside out.",
+        "sizes": {
+            "7": 1,
+            "8": 2,
+            "9.5": 3,
+            "10": 4
+        }
+    },
+    {
+        "id": "5",
+        "name": "Adidas Trae Young 3 'Ice'",
+        "brand": "Adidas",
+        "color": "Blue",
+        "price": 5000,
+        "mainImageURL": "https://titan22.com/cdn/shop/files/IF5603-A_1082x.png?v=1700110394",
+        "colorWay": "LUCID CYAN/TRUE BLUE/LUCID CYAN",
+        "featured": false,
+        "subImageURL1": "https://titan22.com/cdn/shop/files/IF5603-B_1082x.png?v=1700110393",
+        "subImageURL2": "https://titan22.com/cdn/shop/files/IF5603-C_1082x.png?v=1700110393",
+        "subImageURL3": "https://titan22.com/cdn/shop/files/IF5603-D_1082x.png?v=1700110399",
+        "subImageURL4": "https://titan22.com/cdn/shop/files/IF5603-E_1082x.png?v=1700110392",
+        "story": "Get ready for what's next. This iteration of the signature shoes from Trae Young and adidas Basketball is all about the future of the game. Celebrating Trae's unique look, crowd-pleasing bravado and expressive, futuristic style of play, these sneakers are built for optimized motion and stability, two elements of Trae's game that have elevated him to superstar status. Composite Foam in the midsole ensure your most explosive moves can be done at top speed while an asymmetrical Torsion System provides added support on hard plants and cuts. The mesh upper has strategically placed engineered zones that maximize breathability so you can push the pace for all four quarters, just like Trae",
+        "sizes": {
+            "7": 1,
+            "8": 2,
+            "9.5": 3,
+            "10": 4
+        }
+    },
+    {
+        "id": "6",
+        "name": "Puma MB.02 'Be You'",
+        "brand": "Puma",
+        "color": "Purple",
+        "price": 5000,
+        "mainImageURL": "https://titan22.com/cdn/shop/files/37828301-A_1082x.png?v=1686190635",
+        "colorWay": "PURPLE GLIMMER-SAFETY YELLO",
+        "featured": false,
+        "subImageURL1": "https://titan22.com/cdn/shop/files/37828301-B_1082x.png?v=1686190634",
+        "subImageURL2": "https://titan22.com/cdn/shop/files/37828301-C_1082x.png?v=1686190634",
+        "subImageURL3": "https://titan22.com/cdn/shop/files/37828301-F_1082x.png?v=1686190634",
+        "subImageURL4": "https://titan22.com/cdn/shop/files/BeYou_1082x.png?v=1686278113",
+        "story": "The second signature shoe. The follow up. The MB.02. This version is just as disruptive as the first, just as bold, and just as Melo. It has a NITRO Infused midsole that takes you high above the rim, a non-slip rubber outsole to help you cut to the basket, and a whole load of flair that makes you stand out even more on the court. It’s Melo in shoe form. And it’s still Not From Here.",
+        "sizes": {
+            "7": 1,
+            "8": 2,
+            "9.5": 3,
+            "10": 4
+        }
+    },
+    {
+        "id": "1",
+        "name": "New Air Jordan 6 Rings Taxi",
+        "brand": "Jordan",
+        "color": "Yellow",
+        "price": 8000,
+        "mainImageURL": "https://sa.kickscrew.com/cdn/shop/products/main-square_812a1ea0-8eca-4315-b466-6c1492cb751a_540x.jpg?v=1696311873",
+        "colorWay": "Taxi",
+        "featured": true,
+        "subImageURL1": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F03%2Fjordan-6-rings-taxi-release-info-002.jpg?cbr=1&q=90",
+        "subImageURL2": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F03%2Fjordan-6-rings-taxi-release-info-003.jpg?cbr=1&q=90",
+        "subImageURL3": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F03%2Fjordan-6-rings-taxi-release-info-004.jpg?cbr=1&q=90",
+        "subImageURL4": "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2019%2F03%2Fjordan-6-rings-taxi-release-info-005.jpg?cbr=1&q=90",
+        "story": "Launched in 1984, Air Jordan was created by Nike for NBA superstar Michael Jordan. The first model, Air Jordan 1, was released to the public in 1985 and broke new ground for basketball shoes with its unique design and innovative technology. Over the years, the brand has consistently pursued innovation with different models, such as the Air Jordan 3, which introduced the Jumpman logo and elephant print trim, and the Air Jordan 11, which incorporated patent leather. Air Jordan has also been involved in various collaborations with brands, designers, and cultural icons, including OFF-WHITE, Supreme, and Travis Scott, further solidifying its status as a cultural and fashion staple.",
+        "sizes": {
+            "7": 1,
+            "8": 2,
+            "9.5": 3,
+            "10": 4
+        }
+    },
+    {
+        "id": "7",
+        "name": "JORDAN 13 RETRO (PS)",
+        "brand": "Jordan",
+        "color": "Purple",
+        "price": 12000,
+        "mainImageURL": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-Jordan-13Purple-FD4649-501-WB-1.jpg?v=1698155593&width=1140",
+        "colorWay": "PURPLE VENOM/BLACK",
+        "featured": false,
+        "subImageURL1": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-Jordan-13Purple-FD4649-501-WB-6.jpg?v=1700073918&width=1140",
+        "subImageURL2": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-Jordan-13Purple-FD4649-501-WB-3.jpg?v=1700073918&width=1140",
+        "subImageURL3": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-Jordan-13Purple-FD4649-501-WB-5.jpg?v=1698155596&width=1140",
+        "subImageURL4": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-Jordan-13Purple-FD4649-501-WB-4.jpg?v=1698155596&width=1140",
+        "story": "Jordan Brand is extending its affection to youngsters with the upcoming Air Jordan 13 “Purple Venom.” This exclusive colorway, tailor-made for kids, showcases a vibrant blend of Purple Venom, Black, and White hues. The Air Jordan 13 boasts a resilient Black tumbled leather upper, ensuring both durability and comfort.",
+        "sizes": {
+            "7": 1,
+            "8": 2,
+            "9.5": 3,
+            "10": 4
+        }
+    },
+    
+    {
+        "id": "8",
+        "name": "NEW BALANCE 580",
+        "brand": "New Balance",
+        "color": "Green",
+        "price": 14500,
+        "mainImageURL": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-NB-580GreenYellow-131-112832-WB-1.jpg?v=1693432680&width=1440",
+        "colorWay": "GREEN/YELLOW",
+        "featured": false,
+        "subImageURL1": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-NB-580GreenYellow-131-112832-WB-6.jpg?v=1700077847&width=1440",
+        "subImageURL2": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-NB-580GreenYellow-131-112832-WB-3.jpg?v=1700077847&width=1440",
+        "subImageURL3": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-NB-580GreenYellow-131-112832-WB-5.jpg?v=1693432680&width=1440",
+        "subImageURL4": "https://sneakerpolitics.com/cdn/shop/files/Sneaker-Politics-NB-580GreenYellow-131-112832-WB-4.jpg?v=1693432680&width=1440",
+        "story": "The newly reissued 580 brings an icon back to life. The modernized look of a slimmed down toe and reduced collar height is combined with construction that comes as close to a one-to-one recreation of the OG materials, compounds, and features as humanly possible.",
+        "sizes": {
+            "7": 1,
+            "8": 2,
+            "9.5": 3,
+            "10": 4
+        }
+    },
+    {
+        "id": "9",
+        "name": "VANS VAULT OG AUTHENTIC LX",
+        "brand": "Vans",
+        "color": "White",
+        "price": 5000,
+        "mainImageURL": "https://sneakerpolitics.com/cdn/shop/products/Sneaker-Politics-Vans-OGClassicLXSand-131-111306-WB-1.jpg?v=1680033505",
+        "colorWay": "CHECKERBOARD SAND",
+        "featured": false,
+        "subImageURL1": "https://sneakerpolitics.com/cdn/shop/products/Sneaker-Politics-Vans-OGClassicLXSand-131-111306-WB-6.jpg?v=1700152262",
+        "subImageURL2": "https://sneakerpolitics.com/cdn/shop/products/Sneaker-Politics-Vans-OGClassicLXSand-131-111306-WB-3.jpg?v=1700152262",
+        "subImageURL3": "https://sneakerpolitics.com/cdn/shop/products/Sneaker-Politics-Vans-OGClassicLXSand-131-111306-WB-5.jpg?v=1680033505",
+        "subImageURL4": "https://sneakerpolitics.com/cdn/shop/products/Sneaker-Politics-Vans-OGClassicLXSand-131-111306-WB-4.jpg?v=1680033505",
+        "story": "",
+        "sizes": {
+            "7": 1,
+            "8": 2,
+            "9.5": 3,
+            "10": 4
+        }
+    }
+    
+]

@@ -1,0 +1,82 @@
+.footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 50px;
+    height: 200px;
+    margin-bottom: 0;
+}
+
+.footer-content{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.footer-pages, .footer-sub-pages, .footer-icons, .footer-others{
+    display: block;
+    text-align: left;
+    align-items: center;
+    width: 25%;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.footer-pages ul li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-pages ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-sub-pages ul li{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-sub-pages ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-icons ul li {
+    list-style: none;
+    display: inline;
+    gap: 10px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.footer-icons ul li a i {
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+
+.footer-icons h5{
+    margin-bottom: 10px;
+    align-self: center;
+    justify-content: center;
+}
+
+.footer-others{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-others img{
+    width: 150px;
+    margin-right: 0;
+}
+
+
+.rights {
+   margin-left: 20px;
+}

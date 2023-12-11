@@ -1,0 +1,67 @@
+
+
+.brand-filter-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.brand-filter-container label{
+    display: block;
+    cursor: pointer;
+}
+
+.brand-filter-container input{
+    margin-right: 5px;
+    accent-color: #060606;
+}
+
+.color-filter-container input{
+    accent-color: #060606;
+    margin-right: 5px;
+}
+
+.color-filter-container label{
+    display: block;
+    cursor: pointer;
+}
+
+hr{
+    height: 5px;
+    border: none;
+    background-color: #1141BE;
+    margin: 10px 0;
+}
+
+.price-filter-container input{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.price-filter-container label{
+    margin-top: 5px;
+}
+
+.apply-filter-button-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.apply-filter-button{
+    width: 100%;
+    border: none;
+    background-color: #1141BE;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.apply-filter-button:hover{
+    scale: 105%;
+}

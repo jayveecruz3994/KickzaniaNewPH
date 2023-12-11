@@ -1,0 +1,108 @@
+.shop-container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+.shop-content-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.shop-header{
+    width: 100%;
+    height: 100px;
+    background-image: url('../assets/images/wavybg.svg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    color: white;
+}
+
+.shop-header h2 {
+    color: white;
+    font-size: 3em;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
+
+
+.filter-container{
+    width: 400px;
+    margin-top: 20px;
+}
+
+.shop-content{
+    width: calc(100% - 400px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 20px;
+}
+
+.sneaker-card{
+    height: 500px;
+    margin-top: 20px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.card-image{
+    height: 500px;
+    width: 350px;
+}
+
+.card-image img{
+    width: 100%;
+    height: auto;
+}
+
+.card-body{
+    padding: 0 20px;
+    justify-content: space-around;
+}
+
+.sneakerName{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.sneakerBrand{
+    color: #555555;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.sneakerPrice{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.addToCartBtn{
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    border: none;
+    background-color: #1141BE;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.addToCartBtn:hover{
+    scale: 105%;
+    cursor: pointer;
+}
+
+.shop-content ul li {
+    list-style: none;
+    display: inline-block;
+}

@@ -1,0 +1,68 @@
+.responsive-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links,
+  .user-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .nav-links a,
+  .user-actions a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .menu-toggle {
+    cursor: pointer;
+    display: none;
+  }
+  
+  .menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .responsive-navbar {
+      flex-direction: row;
+    }
+  
+    .nav-links,
+    .user-actions {
+      display: none;
+      width: 100%;
+      text-align: center;
+      background-color: #333;
+      position: absolute;
+      top: 65px; /* Adjust this value based on your header height */
+      left: 0;
+    }
+  
+    .nav-links.open,
+    .user-actions.open {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  }

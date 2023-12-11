@@ -1,0 +1,64 @@
+.brand-container{
+    width: 80%;
+    margin: auto;
+}
+
+.brand-container h2{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.logo-slide img {
+    height: 100px;
+    margin: 0 40px;
+}
+
+
+
+.logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background-color: white;
+    white-space: nowrap;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translate(-100%);
+    }
+}
+
+.logo-slide {
+    display: inline-block;
+    white-space: nowrap;
+    animation: 15s slide infinite linear;
+}
+
+.logos:hover .logo-slide {
+    animation-play-state: paused;
+}
+
+.logos::before, .logos::after{
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100%;
+    content: '';
+    z-index: 2;
+}
+
+.logos::before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos::after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}

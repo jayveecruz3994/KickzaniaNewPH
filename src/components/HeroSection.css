@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;500;700&display=swap');
+
+.hero-section {
+    width: 100%;
+    background-color: #EFEFF7;
+    font-family: 'Catamaran', sans-serif;
+}
+.img{
+  max-width: 100%;
+}
+
+.hero-content {
+    width: 80%;
+    background-color: #EFEFF7;
+    margin: auto;
+    height: calc(100vh - 100px);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 30px 0;
+}
+
+.hero-main{ 
+    grid-area: 1 / 1 / 7 / 4;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url('../assets/images/wavybg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+}
+
+.hero-shop-now{
+    border: none;
+    background-color: white;
+    color: black;
+    width: 120px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.hero-shop-now:hover{
+    background-color: white;
+    color: #1141BE;
+}
+
+.hero-main img {
+    width: 600px
+}
+
+.hero-main h2{
+    color: white;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.hero-sub-1{
+    grid-area: 1 / 4 / 4 / 6;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
+}
+
+.hero-sub-2{
+    grid-area: 4 / 4 / 7 / 6;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+}
+
+.ribbon {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+  }
+  .ribbon::before,
+  .ribbon::after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    display: block;
+    border: 5px solid #1141BE;
+  }
+  .ribbon span {
+    position: absolute;
+    display: block;
+    width: 225px;
+    padding: 15px 0;
+    background-color: #1141BE;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    color: #fff;
+    font: 700 18px/1 'Lato', sans-serif;
+    text-shadow: 0 1px 1px rgba(0,0,0,.2);
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  /* top left*/
+  .ribbon-top-left {
+    top: -10px;
+    left: -10px;
+  }
+
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.left p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #1141BE;
+}
+
+.left button{
+    width: 200px;
+    margin-top: 20px;
+    background-color: #1141BE;
+    height: 30px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.left button:hover{
+  background-color: white;
+  color: #1141BE;
+  border: 2px solid #1141BE;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.right img {
+    width: 300px;
+    height: auto;
+}
+
+.ribbon-top-left::before {
+    top: 0;
+    right: 0;
+  }
+  .ribbon-top-left::after {
+    bottom: 0;
+    left: 0;
+  }
+  .ribbon-top-left span {
+    right: -25px;
+    top: 30px;
+    transform: rotate(-45deg);
+  }
+
+  .iconography-1{
+    grid-area: 7 / 1 / 9 / 2;
+  }
+  
+  .iconography-2{
+    grid-area: 7 / 2 / 9 / 3;
+  }
+
+  .iconography-3{
+    grid-area: 7 / 3 / 9 / 4;;
+  }
+
+  .iconography-4{
+    grid-area: 7 / 4 / 9 / 5;
+  }
+
+  .iconography-5{
+    grid-area: 7 / 5 / 9 / 6; 
+  }
+
+  .iconography-1, .iconography-2, .iconography-3, .iconography-4, .iconography-5{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .icon-left{
+    width: 30%;
+    margin-right: 10px;
+  }
+  
+  .icon-left img{
+    width: 100%;
+    height: auto;
+  }
+
+  .iconography-1, .iconography-2, .iconography-3, .iconography-4, .iconography-5 p{
+    color: #7A7B7A;
+  }
+
+  .icon-right{
+    width: 70%;
+  }
+  .icon-right h3{
+    color: black;
+  }

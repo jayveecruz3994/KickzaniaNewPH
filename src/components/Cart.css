@@ -1,0 +1,131 @@
+.cart {
+    position: fixed;
+    top: 0;
+    right: -500px; /* initially hide the cart off-screen */
+    width: 500px;
+    height: 100%;
+    background: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s ease-out;
+    z-index: 3;
+    color: black;
+    overflow-y: scroll;
+  }
+  
+  .cart.open {
+    right: 0; /* move the cart into view when open */
+  }
+  
+  .cart ul{
+    list-style: none;
+  }
+  .cart-header {
+    background: #1141BE;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+  }
+  
+  .cart-items {
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    color: black;
+  }
+  
+  .cart-items li {
+    margin-bottom: 10px;
+  }
+  
+  .cart-header button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .cart-item-container{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  .cart-item-image{
+    width: 100px;
+    height: 100px;
+  }
+
+  .cart-item-image img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .cart-item-details-container{
+    width: 400px;
+    margin-left: 20px;
+  }
+
+  .check-out-button-container{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .checkout-button{
+    width: 465px;
+    height: 60px;
+    border: none;
+    color: white;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #1141BE;
+    border-radius: 20px;
+    margin-right: 5px;
+  }
+  
+  .checkout-button:hover{
+    scale: 105%;
+    cursor: pointer;
+  }
+
+  .empty {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+.removeBtn{
+  color: black;
+  border: none;
+  width: 40px;
+  height: 40px;
+  justify-content: flex-end;
+  position: absolute;
+  right: 5px;
+  top: 0;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: white;
+}
+
+.removeBtn:hover{
+  scale: 105%;
+}
+
+.sneakerBrand{
+  color: #EFEFF7;
+}
+
